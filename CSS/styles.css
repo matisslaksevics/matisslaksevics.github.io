@@ -16,3 +16,9 @@ h1 {
   font-family: verdana;
   font-size 250%;
 }
+p.contactinfo {
+  color: darkgoldenrod;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 135%;
+}
