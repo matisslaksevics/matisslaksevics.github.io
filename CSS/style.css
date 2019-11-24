@@ -12,17 +12,19 @@ body{
 	background-position: center;
 }
 
-ul{
+.menu ul{
 	float: right;
 	list-style-type: none;
 	margin-top: 25px;
-
+	margin: 50px;
 }
 
-ul li{
+.menu ul li{
 	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
 }
-ul li a{
+.menu ul li a{
 	text-decoration: none;
 	color: #fff;
 	padding: 5px 20px;
@@ -30,20 +32,26 @@ ul li a{
 	transition: 0.6s ease;
 }
 
-ul li a:hover{
+.menu ul li a:hover{
 	background-color: #32CD32;
 	color: #000;
 }
 
-ul li.active a{
+.menu ul li.active a{
 	background-color: #32CD32;
 	color: #000;
 }
 
 .logo img{
 	float: left;
-	width: 250px;
+	width: 200px;
 	height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .logo img{
+    display: none;
+  }
 }
 
 .main{
@@ -81,32 +89,11 @@ ul li.active a{
 	background-color: #32CD32;
 	color: #000;
 }
-iframe{
-	float: right;
-	margin-top: 50px;
-	margin-right: 50px;
-}
 
 h1{
 	color: green;
 	font-size: 110%;
-}
-
-p {
-  color: darkblue;
-  font: courier;
-  font-size: 100%
-  margin-top: 200px;
-  margin-left: 250px;
-}
-
-p.contactinfo {
-  color: darkgoldenrod;
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  font-size: 135%;
-  margin-top: 20px;
- margin-left: 25px;
+	top: 200%;
 }
 
 .gallery{
@@ -122,4 +109,50 @@ p.contactinfo {
 .gallery img:hover{
 	filter: grayscale(100%);
 	transform: scale(1.1);
+}
+
+.banner{
+	width: 80%;
+	height: 70%;
+	top: 30%;
+	left: 130px;
+	position: absolute;
+	color: red;
+}
+
+.app-text{
+	width: 50%;
+	float: left;	
+}
+
+.app-text h1{
+	font-size: 43px;
+	width: 640px;
+	position: relative;
+	margin-left: 40px;
+}
+
+.app-text p{
+	width: 650px;
+	font-size: 30px;
+	margin: 30px 0 30px 40px;
+	line-height: 25px;
+}
+
+.app-picture{
+	width: 50%;
+	float: right;
+}
+
+.video {
+	width: 560px;
+	height: 315px;
+	margin: 30px 0 30px 40px;
+	float: right;
+}
+
+iframe{
+	float: right;
+	margin-top: -20px;
+	padding-left: 50px;
 }
