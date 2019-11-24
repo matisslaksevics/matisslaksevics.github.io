@@ -104,6 +104,7 @@ h1{
 	transition: 1s;
 	padding: 15px;
 	width: 200px;
+	height: auto
 }
 
 .gallery img:hover{
@@ -130,6 +131,7 @@ h1{
 	width: 640px;
 	position: relative;
 	margin-left: 40px;
+	color: #fff;
 }
 
 .app-text p{
@@ -137,6 +139,52 @@ h1{
 	font-size: 30px;
 	margin: 30px 0 30px 40px;
 	line-height: 25px;
+	color: blue;
+}
+
+.app-text-raksti-left{
+	width: 50%;
+	float: left;
+	background-color: #444242;
+}
+
+.app-text-raksti-left h1{
+	font-size: 30px;
+	width: 640px;
+	position: relative;
+	margin-left: 30px;
+	color: yellow;
+}
+
+.app-text-raksti-left p{
+	width: 640px;
+	font-size: 20px;
+	margin: 30px 0 30px 40px;
+	line-height: 20px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.app-text-raksti-right{
+	width: 50%;
+	float: right;
+	background-color: #444242;
+}
+
+.app-text-raksti-right h1{
+	font-size: 30px;
+	width: 900px;
+	position: relative;
+	margin-right: 30px;
+	color: yellow;
+}
+
+.app-text-raksti-right p{
+	width: 640px;
+	font-size: 20px;
+	margin: 30px 0 30px 40px;
+	line-height: 20px;
+	color: #fff;
 }
 
 .app-picture{
@@ -155,4 +203,17 @@ iframe{
 	float: right;
 	margin-top: -20px;
 	padding-left: 50px;
+}
+.app-text-raksti-left img{
+	width: 200px;
+	height: auto;
+	float: left;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.app-text-raksti-right img{
+	width: 200px;
+	height: auto;
+	float: left;
 }
