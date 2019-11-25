@@ -48,9 +48,18 @@ body{
 	height: auto;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
   .logo img{
     display: none;
+  }
+  .app-text-raksti-left{
+  	background-color: green;
+  }
+  .app-text-raksti-right{
+  	background-color: red;
+  }
+  .video{
+  	float: left;
   }
 }
 
